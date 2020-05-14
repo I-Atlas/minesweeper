@@ -1,0 +1,53 @@
+.App {
+  background-color: #dbdbdb;
+  padding: 16px;
+  border-width: 4px;
+  border-style: solid;
+  border-right-color: #9b9b9b;
+  border-bottom-color: #9b9b9b;
+  border-left-color: #ffffff;
+  border-top-color: #ffffff;
+  display: grid;
+}
+.Header {
+  background-color: #dbdbdb;
+  padding: 10px 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color: #9b9b9b;
+  border-top-color: #9b9b9b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Body {
+  margin-top: 16px;
+  border-width: 4px;
+  border-style: solid;
+  border-right-color: #9b9b9b;
+  border-bottom-color: #9b9b9b;
+  border-left-color: #ffffff;
+  border-top-color: #ffffff;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr) ;
+  grid-template-columns: repeat(9, 1fr) ;
+}
+
+.Face {
+  width: 52px;
+  height: 52px;
+  font-size: 35px;
+  border-width: 4px;
+  border-style: solid;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color: #9b9b9b;
+  border-top-color: #9b9b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

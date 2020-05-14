@@ -1,0 +1,57 @@
+.Button {
+    border-width: 4px;
+    border-style: solid;
+    border-right-color: #9b9b9b;
+    border-bottom-color: #9b9b9b;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+.Button:active {
+    border-bottom-color: white;
+    border-left-color: #9b9b9b;
+    border-right-color: white;
+    border-top-color: #9b9b9b;
+}
+
+.Button.visible {
+    border-color: #9b9b9b;
+    border-width: 1px;
+}
+.Button.red {
+    background: rgb(255, 0, 0);
+}
+.Button span {
+    font-size: 12px;
+    margin-left: 2px;
+}
+.Button.value-1 {
+    color: rgb(0, 0, 255);
+}
+.Button.value-2 {
+    color: rgb(0, 255, 0);
+}
+.Button.value-3 {
+    color: rgb(255, 0, 0);
+}
+.Button.value-4 {
+    color: rgb(221, 39, 221);
+}
+.Button.value-5 {
+    color: rgb(163, 49, 49);
+}
+.Button.value-6 {
+    color: rgb(160, 236, 229);
+}
+.Button.value-7 {
+    color: rgb(34, 30, 30);
+}
+.Button.value-8 {
+    color: rgb(129, 129, 129);
+}
