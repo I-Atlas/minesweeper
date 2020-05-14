@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/I-Atlas/Minesweeper">
-    <img src="hhttps://imgur.com/1vuQT70.png" width="300" alt="Minesweeper">
+    <img src="https://imgur.com/1vuQT70.png" width="300" alt="Minesweeper">
     <br>
     <br>
     Minesweeper
