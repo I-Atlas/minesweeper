@@ -13,6 +13,8 @@
 
 Simple Minesweeper game on TS React.
 
+Right mouse click - set a flag.
+
 ## Setup
 
 `npm install`
